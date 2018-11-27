@@ -160,7 +160,7 @@ class Window(Gtk.Window):
             event(event.Event): The current event to process.
         """
         if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
-            print(os.system("mpg123 /home/caleb/open-ended.mp3"))
+            print(os.system("mpg123 open-ended.mp3"))
 	    
 
         print(event)
