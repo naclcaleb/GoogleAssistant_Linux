@@ -60,7 +60,7 @@ class Window(Gtk.Window):
         Gtk.Window.__init__(self, title="Google Assistant")
 
         self.image = Gtk.Image()
-        self.image.set_from_file("google-assistant.png")
+        self.image.set_from_file("/usr/share/icons/google-assistant.png")
         self.connect("button-press-event",self.run_assistant)
         self.add(self.image)
 
@@ -159,7 +159,7 @@ class Window(Gtk.Window):
             event(event.Event): The current event to process.
         """
         if event.type == EventType.ON_CONVERSATION_TURN_STARTED:
-            print(os.system("mpg123 open-ended.mp3"))
+            print(os.system("mpg123 /usr/share/assistant/open-ended.mp3"))
 	    
 
         print(event)
