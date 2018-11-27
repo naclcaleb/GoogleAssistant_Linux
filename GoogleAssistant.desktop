@@ -5,4 +5,4 @@ Type=Application
 Terminal=false
 Exec=/usr/bin/google_assistant
 Name=Google Assistant
-Icon=/home/caleb/Pictures/google-assistant.png
+Icon=/usr/share/icons/google-assistant.png
