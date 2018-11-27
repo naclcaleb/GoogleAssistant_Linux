@@ -17,3 +17,8 @@ sudo ./install.sh
 ```
 
 ##### Note: Make sure to run the install script with sudo privileges, or you will get a `PERMISSION DENIED` error.
+
+## How to use
+Make sure you have a microphone and speaker, whether it be internal or external. Using your application finder of choice, find the `Google Assistant` app and open it. Now click anywhere you want in the app and it should give you a noise indicating that it is turned on. This noise will sound every time you activate it by saying "Hey Google" or "Ok Google".
+
+#### Don't be worried that the application becomes "unresponsive". This is simply because it is running the Google Assistant program in an endless loop, and thinks that is a problem. It's nothing to be worried about, and won't crash your computer.
